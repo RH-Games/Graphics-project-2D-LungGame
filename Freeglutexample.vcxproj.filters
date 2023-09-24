@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="ImageLoading.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Sprite.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="shaders\Shader.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="FreeType.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="game.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="Circle.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="OBB.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ImageLoading.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="shaders\Shader.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Sprite.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FreeType.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Circle.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="OBB.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Var.h">
+      <Filter>headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="headers">
+      <UniqueIdentifier>{fc837774-d0bb-4f04-9bf7-d9b28cb5f32c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source">
+      <UniqueIdentifier>{9604e9f0-a9c7-48ca-bc3a-ca96f1aabe51}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="glslfiles">
+      <UniqueIdentifier>{4e23bd0c-e24b-4585-a243-04ab8a8423ea}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="glslfiles\basicTexture.vert">
+      <Filter>glslfiles</Filter>
+    </None>
+    <None Include="glslfiles\basicTexture.frag">
+      <Filter>glslfiles</Filter>
+    </None>
+  </ItemGroup>
+</Project>
